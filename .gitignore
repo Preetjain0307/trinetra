@@ -1,0 +1,43 @@
+# Python & Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+!.env.example
+
+# Databases & Local Data
+*.db
+*.sqlite
+*.sqlite3
+trinetra.db
+
+# Node.js / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# AI Weights
+*.pt
+*.onnx
+*.engine
+!data/weights/.gitkeep
+
+# OS / IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
